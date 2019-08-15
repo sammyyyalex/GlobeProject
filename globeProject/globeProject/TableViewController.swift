@@ -6,28 +6,46 @@
 //  Copyright © 2019 Samantha. All rights reserved.
 //
 
-import UIKit
-
-class TableViewController: UITableViewController {
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 3
-    }
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 5
-    }
-
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell", for: indexPath)
-
-       cell.textLabel?.text = "Section \(indexPath.section) Row \(indexPath.row)"
-
-        return cell
-    }
-   
+//import UIKit
+//
+//struct Genres {
+//    var id: Int
+//    var title: String
+//}
+//
+//class TableViewController: UITableViewController {
+//
+//    var allGenres = [
+//        Genres(id:1,
+//              title:"Classics"),
+//        Genres(id:2,title:"Biographies/Autographies/Memoir"),
+//   Genres(id:3,
+//          title: "Romance/Fantasy"),
+//   Genres(id: 4, title: "Thiller/Mystery")
+//    ]
+//
+//    override func numberOfSections(in tableView: UITableView) -> Int {
+//        // #warning Incomplete implementation, return the number of sections
+//        return 4
+//    }
+//
+//    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        // #warning Incomplete implementation, return the number of rows
+//        return 1
+//    }
+//
+//
+//
+//    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell", for: indexPath)
+//
+//       cell.textLabel?.text = "Section \(indexPath.section) Row\(indexPath.row)"
+//        return cell
+//    }
+//
+//    func tableView(_tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+//        return "Section \(section)"
+//    }
 
     /*
     // Override to support conditional editing of the table view.
@@ -74,4 +92,5 @@ class TableViewController: UITableViewController {
     }
     */
 
-}
+//}*/
+

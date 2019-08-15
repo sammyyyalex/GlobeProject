@@ -101,8 +101,8 @@
 			children = (
 				1567A63623045A66006B6EAB /* AppDelegate.swift */,
 				1567A63A23045A66006B6EAB /* Main.storyboard */,
-				1567A64023045A69006B6EAB /* Assets.xcassets */,
 				15B9429D2305B81C009E8607 /* TableViewController.swift */,
+				1567A64023045A69006B6EAB /* Assets.xcassets */,
 				1567A64223045A69006B6EAB /* LaunchScreen.storyboard */,
 				1567A64523045A69006B6EAB /* Info.plist */,
 				1567A63D23045A66006B6EAB /* globeProject.xcdatamodeld */,
