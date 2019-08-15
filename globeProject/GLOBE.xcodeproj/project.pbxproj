@@ -35,17 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1567A63323045A66006B6EAB /* globeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = globeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1567A63323045A66006B6EAB /* GLOBE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLOBE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1567A63623045A66006B6EAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1567A63B23045A66006B6EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1567A63E23045A66006B6EAB /* globeProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = globeProject.xcdatamodel; sourceTree = "<group>"; };
 		1567A64023045A69006B6EAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1567A64323045A69006B6EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1567A64523045A69006B6EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1567A64A23045A69006B6EAB /* globeProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = globeProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1567A64A23045A69006B6EAB /* GLOBETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLOBETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1567A64E23045A69006B6EAB /* globeProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globeProjectTests.swift; sourceTree = "<group>"; };
 		1567A65023045A69006B6EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1567A65523045A69006B6EAB /* globeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = globeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1567A65523045A69006B6EAB /* GLOBEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLOBEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1567A65923045A69006B6EAB /* globeProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globeProjectUITests.swift; sourceTree = "<group>"; };
 		1567A65B23045A69006B6EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15B9429D2305B81C009E8607 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
@@ -89,9 +89,9 @@
 		1567A63423045A66006B6EAB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1567A63323045A66006B6EAB /* globeProject.app */,
-				1567A64A23045A69006B6EAB /* globeProjectTests.xctest */,
-				1567A65523045A69006B6EAB /* globeProjectUITests.xctest */,
+				1567A63323045A66006B6EAB /* GLOBE.app */,
+				1567A64A23045A69006B6EAB /* GLOBETests.xctest */,
+				1567A65523045A69006B6EAB /* GLOBEUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1567A63223045A66006B6EAB /* globeProject */ = {
+		1567A63223045A66006B6EAB /* GLOBE */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1567A65E23045A69006B6EAB /* Build configuration list for PBXNativeTarget "globeProject" */;
+			buildConfigurationList = 1567A65E23045A69006B6EAB /* Build configuration list for PBXNativeTarget "GLOBE" */;
 			buildPhases = (
 				1567A62F23045A66006B6EAB /* Sources */,
 				1567A63023045A66006B6EAB /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = globeProject;
+			name = GLOBE;
 			productName = globeProject;
-			productReference = 1567A63323045A66006B6EAB /* globeProject.app */;
+			productReference = 1567A63323045A66006B6EAB /* GLOBE.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1567A64923045A69006B6EAB /* globeProjectTests */ = {
+		1567A64923045A69006B6EAB /* GLOBETests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1567A66123045A69006B6EAB /* Build configuration list for PBXNativeTarget "globeProjectTests" */;
+			buildConfigurationList = 1567A66123045A69006B6EAB /* Build configuration list for PBXNativeTarget "GLOBETests" */;
 			buildPhases = (
 				1567A64623045A69006B6EAB /* Sources */,
 				1567A64723045A69006B6EAB /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				1567A64C23045A69006B6EAB /* PBXTargetDependency */,
 			);
-			name = globeProjectTests;
+			name = GLOBETests;
 			productName = globeProjectTests;
-			productReference = 1567A64A23045A69006B6EAB /* globeProjectTests.xctest */;
+			productReference = 1567A64A23045A69006B6EAB /* GLOBETests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1567A65423045A69006B6EAB /* globeProjectUITests */ = {
+		1567A65423045A69006B6EAB /* GLOBEUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1567A66423045A69006B6EAB /* Build configuration list for PBXNativeTarget "globeProjectUITests" */;
+			buildConfigurationList = 1567A66423045A69006B6EAB /* Build configuration list for PBXNativeTarget "GLOBEUITests" */;
 			buildPhases = (
 				1567A65123045A69006B6EAB /* Sources */,
 				1567A65223045A69006B6EAB /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				1567A65723045A69006B6EAB /* PBXTargetDependency */,
 			);
-			name = globeProjectUITests;
+			name = GLOBEUITests;
 			productName = globeProjectUITests;
-			productReference = 1567A65523045A69006B6EAB /* globeProjectUITests.xctest */;
+			productReference = 1567A65523045A69006B6EAB /* GLOBEUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1567A62E23045A66006B6EAB /* Build configuration list for PBXProject "globeProject" */;
+			buildConfigurationList = 1567A62E23045A66006B6EAB /* Build configuration list for PBXProject "GLOBE" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1567A63223045A66006B6EAB /* globeProject */,
-				1567A64923045A69006B6EAB /* globeProjectTests */,
-				1567A65423045A69006B6EAB /* globeProjectUITests */,
+				1567A63223045A66006B6EAB /* GLOBE */,
+				1567A64923045A69006B6EAB /* GLOBETests */,
+				1567A65423045A69006B6EAB /* GLOBEUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		1567A64C23045A69006B6EAB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1567A63223045A66006B6EAB /* globeProject */;
+			target = 1567A63223045A66006B6EAB /* GLOBE */;
 			targetProxy = 1567A64B23045A69006B6EAB /* PBXContainerItemProxy */;
 		};
 		1567A65723045A69006B6EAB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1567A63223045A66006B6EAB /* globeProject */;
+			target = 1567A63223045A66006B6EAB /* GLOBE */;
 			targetProxy = 1567A65623045A69006B6EAB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -482,7 +482,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/globeProject.app/globeProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLOBE.app/GLOBE";
 			};
 			name = Debug;
 		};
@@ -502,7 +502,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/globeProject.app/globeProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLOBE.app/GLOBE";
 			};
 			name = Release;
 		};
@@ -547,7 +547,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1567A62E23045A66006B6EAB /* Build configuration list for PBXProject "globeProject" */ = {
+		1567A62E23045A66006B6EAB /* Build configuration list for PBXProject "GLOBE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1567A65C23045A69006B6EAB /* Debug */,
@@ -556,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1567A65E23045A69006B6EAB /* Build configuration list for PBXNativeTarget "globeProject" */ = {
+		1567A65E23045A69006B6EAB /* Build configuration list for PBXNativeTarget "GLOBE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1567A65F23045A69006B6EAB /* Debug */,
@@ -565,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1567A66123045A69006B6EAB /* Build configuration list for PBXNativeTarget "globeProjectTests" */ = {
+		1567A66123045A69006B6EAB /* Build configuration list for PBXNativeTarget "GLOBETests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1567A66223045A69006B6EAB /* Debug */,
@@ -574,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1567A66423045A69006B6EAB /* Build configuration list for PBXNativeTarget "globeProjectUITests" */ = {
+		1567A66423045A69006B6EAB /* Build configuration list for PBXNativeTarget "GLOBEUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1567A66523045A69006B6EAB /* Debug */,
